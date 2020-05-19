@@ -1,0 +1,52 @@
+.TopRow {
+    display: flex;
+    flex-wrap: row;
+}
+
+.ComsicLogo {
+    width: 40%;
+    height: 20%;
+}
+
+.RightSideHeaderBeans {
+    width: 75%;
+    height: 20%;
+    z-index: 2;
+}
+
+.ComsicLogo:hover {
+    width: 42%;
+    height: 21%;
+    transition: 2s;
+    z-index: 4;
+}
+
+.RightSideHeaderBeans:hover {
+    width: 77%;
+    height: 22%;
+    z-index: 2;
+    transition: 2s;
+}
+
+
+
+.MainSection {
+    width: 100%;
+    height: 100%;
+}
+.MainSection:hover {
+    width: 101%;
+    height: 101%;
+    transition: 2s;
+}
+
+
+.FooterImage {
+    width: 100%;
+    height: 30%;
+}
+.FooterImage:hover {
+    width: 101%;
+    height: 32%;
+    transition: 2s;
+}
